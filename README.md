@@ -17,8 +17,11 @@ The Hat class should have a draw method that accepts an argument indicating the 
 Next, create an experiment function in main.py (not inside the Hat class). This function should accept the following arguments:
 
 hat: A hat object containing balls that should be copied inside the function.
+
 expected_balls: An object indicating the exact group of balls to attempt to draw from the hat for the experiment. For example, to determine the probability of drawing 2 blue balls and 1 red ball from the hat, set expected_balls to {'blue':2, 'red':1}.
+
 num_balls_drawn: The number of balls to draw out of the hat in each experiment.
+
 num_experiments: The number of experiments to perform. (The more experiments performed, the more accurate the approximate probability will be.)
 The experiment function should return a probability.
 
@@ -38,14 +41,12 @@ Since this is based on random draws, the probability will be slightly different 
 
 Hint: Consider using the modules that are already imported at the top. Do not initialize random seed within the file.
 
-Note: open the browser console with F12 to see a more verbose output of the tests.
+## Tests
 
-Run the Tests (Ctrl + Enter)
-Save your Code
-Revert to Saved Code
-Get Help
-Tests
 Waiting:1. Creation of hat object should add correct contents.
+
 Waiting:2. The draw method in hat class should reduce number of items in contents.
+
 Waiting:3. The draw method should behave correctly when the number of balls to extract is bigger than the number of balls in the hat.
+
 Waiting:4. The experiment method should return a different probability.
